@@ -39,3 +39,6 @@ Search the sections `profile/brief.md` → "Job sources" names. Append new sourc
 - Posting date missing → look for it in the page source or the ATS API link; older than 30 days counts as stale.
 - "Senior" in the title with requirements that match the owner's years → keep, tier by the requirements.
 - Location given as a country only → check the careers page for the office list before tiering.
+
+## Observations
+- 2026-11-19 (cloud session): AllJobs mobile pages (`alljobs.co.il/m/p/jobs/...`) answer a headless browser with "Verifying your browser before proceeding...": read AllJobs through search snippets, or ask the owner to paste the posting. Aggregator junior-UX listings for Israel (designproject.io, ixdf.org, alljobs) were mostly closed on the company's own board: always confirm on the company board before scoring. Bending Spoons runs its own board (jobs.bendingspoons.com, not readable by jobs.py); its pages render in a headless browser and mark closed roles "Applications closed".
